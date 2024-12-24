@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Vincent Kostelijk">
+    <meta name="author" content="Vaarschool Seal">
     <title>Vaarschool Seal</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg" href="images/favicon.svg">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="styles/stylesheet.css">
 </head>
 <body>
 
 <header>
-    <img class="title-logo" src="images/seallogo [black].svg" alt="Vaarschool Seal logo">
+    <a href="index.html">
+        <img class="title-logo" src="images/seallogo-black.svg" alt="Vaarschool Seal logo">
+    </a>
 </header>
 
 <div class="container">
@@ -26,9 +28,8 @@
             Het is altijd een wedstrijd wie er zich als eerste heeft ingeschreven voor een spectaculaire zeilweek.
         </p>
         <p><i>De inschrijvingen voor medewerkers zijn op 1 december geopend!</i></p>
-        <button class="button-inactive">Inschrijvingen cursisten</button>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOGJDM5Tr7IxuTq-kGB__qhXMITGSsdljvVbmjlIj30fok2Q/viewform?usp=sf_link">
-            <button class="button-active" >Inschrijvingen medewerkers</button>
+        <a href="pages/signup.html">
+            <button class="button-active">Schrijf je in!</button>
         </a>
     </div>
 
@@ -58,7 +59,7 @@
 </div>
 
 <footer>
-    <p>&copy; 2024 Vaarschool Seal | Alle rechten voorbehouden</p>
+    <p>&copy; <script>document.write(new Date().getFullYear())</script> Vaarschool Seal | Alle rechten voorbehouden</p>
 </footer>
 
 </body>
