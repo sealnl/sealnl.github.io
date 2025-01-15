@@ -1,6 +1,7 @@
 :root {
     --purple: #4a077a;
     --lightpurple: #f1d6f6;
+    --lightyellow: #f7e7a3;
     --background: #f4f4f4;
 }
 
@@ -50,6 +51,15 @@ header h1 {
 .description {
     font-size: 1.2em;
     margin-bottom: 30px;
+}
+
+.message {
+    font-size: 1.5em;
+    background-color: var(--lightyellow);
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);
 }
 
 .registration {
